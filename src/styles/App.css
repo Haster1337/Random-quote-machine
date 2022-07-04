@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main .App {
+  position: absolute;
+  left: calc(50% - 400px);
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#quote-box {
+  font-size: 22px;
+  margin: 50px;
+}
+
+#text i {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+
+#author {
+  margin-top: 25px;
+  margin-left: 500px;
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 50px;
+}
+
+#new-quote {
+  width: 90px;
+  margin-left: 500px;
+  margin-bottom: 50px;  
+  background-color: #333;
+  color: white;
+  height: 45px;
+}
+
+
+#tweet-quote {
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  width: 100px;
+  float: left;
+        padding: 0px;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-right: 5px;
+        height: 30px;
+        width: 40px;
+}
+
+
+.fa fa-twitter {
+  
+}
